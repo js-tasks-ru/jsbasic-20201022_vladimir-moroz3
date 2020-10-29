@@ -10,6 +10,6 @@ function factorial(n) {
   for (var i = n; i > 1; i--) {
     res *= (i - 1);
   }
-   return res;
- }
+  return res;
+}
 
