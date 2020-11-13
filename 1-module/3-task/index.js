@@ -14,7 +14,6 @@ function ucFirst(str) {
   for (let char of strSmall) {
     if (char.indexOf(targetSmall) != -1) {
       counter++;
-      console.log(counter);
     }
   }
   if (counter == 1) {
