@@ -4,5 +4,13 @@
  * @return {HTMLUListElement}
  */
 function makeFriendsList(friends) {
-  // ваш код...
+  let ul = document.createElement('ul');
+
+	let arrFullNames = friends.map(item => ([item.firstName + " " + item.lastName]));
+
+	for (let fullName of arrFullNames) {
+	  ul.innerHTML += ( `<li>${fullName}</li>` );
+	}
+  
+  return ul;
 }
