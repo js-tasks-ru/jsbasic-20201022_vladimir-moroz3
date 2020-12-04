@@ -24,6 +24,5 @@ function highlight(table) {
     	if (+(tr.cells[1].textContent) < 18) {
     		tr.style.textDecoration = "line-through";
     	}
-    }
-    return; 
+    } 
 }
